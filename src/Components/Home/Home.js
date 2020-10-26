@@ -2,7 +2,7 @@ import './home.css';
 
 function Home() {
     return(
-        <div style={{display:"flex"}}>
+        <div style={{display:"flex",alignItems:"center"}}>
             <div>
                 <h1 className="title">Hi there! I'm Edwin Aragón</h1>
                 <p className="self-description">
