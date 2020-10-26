@@ -1,5 +1,5 @@
-import './Portfolio.css';
-import Home from './Components/home'
+import './portfolio.css';
+import Home from './Components/Home/Home'
 import Navbar from './Components/Navbar/Navbar'
 
 function Portfolio() {
