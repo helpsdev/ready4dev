@@ -32,7 +32,13 @@ function AboutMe() {
             </p>
             <h3>Skills</h3>
             <p>In all these years working as web developer I've learned several different languages and frameworks showing below:</p>
-            add a section with the logos of the skills I have experience on
+            <section>
+                <img src="images/html_css_js_logo.png" />
+                <img src="images/jquery.png" />
+                <img src="images/react.png" />
+                <img src="images/sqlserver.png" />
+                <img src="images/netcore.png" />
+            </section>
             <h3>My history</h3>
             <p>
                 I'm a web developer based in Mexico. Since I was little I was amazed by the computers. 
