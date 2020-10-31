@@ -1,8 +1,9 @@
 import './home.css';
+import {ReactComponent as HomeIlustration} from "./images/dev_productivity.svg"
 
 function Home() {
     return(
-        <div style={{display:"flex",alignItems:"center"}}>
+        <div className="home">
             <div>
                 <h1 className="title">Hi there! I'm Edwin Aragón</h1>
                 <p className="self-description">
@@ -12,7 +13,7 @@ function Home() {
                 </p>
                 <p className="self-description">Want to know more about me? Keep scrolling!</p>
             </div>
-            <img src="images/dev_productivity.svg" alt="" />
+            <HomeIlustration />
         </div>
     );
 }

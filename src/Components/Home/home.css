@@ -1,0 +1,7 @@
+.home{
+    display: flex;
+    align-items: center;
+}
+.home svg{
+    width:100%;
+}

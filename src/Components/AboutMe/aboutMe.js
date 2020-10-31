@@ -1,3 +1,11 @@
+import {ReactComponent as HTML} from "./images/html-5.svg"
+import {ReactComponent as CSS3} from "./images/css-5.svg"
+import {ReactComponent as JS} from "./images/javascript-4.svg"
+import {ReactComponent as JQuery} from "./images/jquery-1.svg"
+import {ReactComponent as React} from "./images/react.svg"
+import {ReactComponent as SqlServer} from "./images/microsoft-sql-server.svg"
+import {ReactComponent as DotNetCore} from "./images/dot-net-core-7.svg"
+import "./aboutMe.css"
 
 function AboutMe() {
     return(
@@ -32,12 +40,14 @@ function AboutMe() {
             </p>
             <h3>Skills</h3>
             <p>In all these years working as web developer I've learned several different languages and frameworks showing below:</p>
-            <section>
-                <img src="images/html_css_js_logo.png" />
-                <img src="images/jquery.png" />
-                <img src="images/react.png" />
-                <img src="images/sqlserver.png" />
-                <img src="images/netcore.png" />
+            <section className="skills">
+                <HTML />
+                <CSS3 />
+                <JS />
+                <JQuery />
+                <React />
+                <SqlServer />
+                <DotNetCore />
             </section>
             <h3>My history</h3>
             <p>
