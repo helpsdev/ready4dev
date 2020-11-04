@@ -1,10 +1,10 @@
-import {ReactComponent as HTML} from "./images/html-5.svg"
-import {ReactComponent as CSS3} from "./images/css-5.svg"
-import {ReactComponent as JS} from "./images/javascript-4.svg"
-import {ReactComponent as JQuery} from "./images/jquery-1.svg"
-import {ReactComponent as React} from "./images/react.svg"
-import {ReactComponent as SqlServer} from "./images/microsoft-sql-server.svg"
-import {ReactComponent as DotNetCore} from "./images/dot-net-core-7.svg"
+import {ReactComponent as HTML} from "../../Images/html-5.svg"
+import {ReactComponent as CSS3} from "../../Images/css-5.svg"
+import {ReactComponent as JS} from "../../Images/javascript-4.svg"
+import {ReactComponent as JQuery} from "../../Images/jquery-1.svg"
+import {ReactComponent as React} from "../../Images/react.svg"
+import {ReactComponent as SqlServer} from "../../Images/microsoft-sql-server.svg"
+import {ReactComponent as DotNetCore} from "../../Images/dot-net-core-7.svg"
 import "./aboutMe.css"
 
 function AboutMe() {
