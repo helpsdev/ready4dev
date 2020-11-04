@@ -14,7 +14,7 @@ function MyWork() {
                     getProjectList().map(p => {
                         return (                        
                             <section>
-                                {p.preview && <img src={p.preview}></img>}
+                                {p.preview && <img className="preview-image" src={p.preview}></img>}
                                 <p>{p.name}</p>
                                 <p>{p.description}</p>
                                 <section className="technology-icon">{p.technologies}</section>
@@ -37,7 +37,10 @@ function getProjectList(){
             code:"",
             liveApp:"",
             preview: NotAvailable,
-            description:"",
+            description:`Resumebot born in a Hackathon hosted by Meantbean. 
+                They have a lot of great hackathons where you can learn a lot thank you to their mentorship through the hackathon.
+                The idea is that this bot is my digital representation which you can interact with to get to know more about me, 
+                specially about my resume`,
             technologies:[
                 <HTML />,
                 <CSS />,
@@ -49,7 +52,9 @@ function getProjectList(){
             code:"",
             liveApp:"",
             preview: NotAvailable,
-            description:"",
+            description:`Stock Market Simulator also born in a Meantbean Hackathon. 
+                The idea of this project was to learn to use React and create a simulation game of a stock market which will give you an amount of funds to begin with
+                and as the game passes you could earn or lose money depending on how you were buying/selling your shares when the price was changing`,
             technologies:[
                 <HTML />,
                 <CSS />,
@@ -62,7 +67,8 @@ function getProjectList(){
             code:"",
             liveApp:"",
             preview: NotAvailable,
-            description:"",
+            description: `Home Donuts is a real project of a donuts store. Here you can see the menu with real photos of the products
+                they sell, you can also contact the store to ask for a quote for special events and you can know more about the business in the about section`,
             technologies:[
                 <HTML />,
                 <CSS />,
