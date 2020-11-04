@@ -1,4 +1,8 @@
 import "./myWork.css"
+import {ReactComponent as JS} from '../../Images/javascript-4.svg';
+import {ReactComponent as CSS} from '../../Images/css-5.svg';
+import {ReactComponent as HTML} from '../../Images/html-5.svg';
+import {ReactComponent as React} from '../../Images/react.svg';
 
 function MyWork() {
     return(
@@ -12,7 +16,7 @@ function MyWork() {
                                 {p.preview && <img src={p.preview}></img>}
                                 <p>{p.name}</p>
                                 <p>{p.description}</p>
-                                <p>{p.technologies.join(" | ")}</p>
+                                <section className="technology-icon">{p.technologies}</section>
                                 <a href={p.liveApp}>Live Site</a>
                                 <a href={p.code}>Github</a>
                             </section>
@@ -34,9 +38,9 @@ function getProjectList(){
             preview:"",
             description:"",
             technologies:[
-                "HTML",
-                "CSS",
-                "JS"
+                <HTML />,
+                <CSS />,
+                <JS />
             ]
         },
         {
@@ -46,10 +50,10 @@ function getProjectList(){
             preview:"",
             description:"",
             technologies:[
-                "HTML",
-                "CSS",
-                "JS",
-                "React"
+                <HTML />,
+                <CSS />,
+                <JS />,
+                <React />
             ]
         },
         {
@@ -58,7 +62,11 @@ function getProjectList(){
             liveApp:"",
             preview:"",
             description:"",
-            technologies:[]
+            technologies:[
+                <HTML />,
+                <CSS />,
+                <JS />
+            ]
         }
     ]
 }

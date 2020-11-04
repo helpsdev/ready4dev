@@ -2,3 +2,10 @@
     display: flex;
     justify-content: space-around;
 }
+.projects .technology-icon svg{
+    width: 100%;
+    height: 100%;
+    max-width: 2.5rem;
+    padding: 0.5rem;
+    vertical-align: middle;
+}
