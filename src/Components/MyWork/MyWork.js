@@ -1,8 +1,9 @@
-import "./myWork.css"
+import "./myWork.css";
 import {ReactComponent as JS} from '../../Images/javascript-4.svg';
 import {ReactComponent as CSS} from '../../Images/css-5.svg';
 import {ReactComponent as HTML} from '../../Images/html-5.svg';
 import {ReactComponent as React} from '../../Images/react.svg';
+import NotAvailable from '../../Images/not-available.png';
 
 function MyWork() {
     return(
@@ -35,7 +36,7 @@ function getProjectList(){
             name: "Chatbot",
             code:"",
             liveApp:"",
-            preview:"",
+            preview: NotAvailable,
             description:"",
             technologies:[
                 <HTML />,
@@ -47,7 +48,7 @@ function getProjectList(){
             name: "Stock Market Simulator",
             code:"",
             liveApp:"",
-            preview:"",
+            preview: NotAvailable,
             description:"",
             technologies:[
                 <HTML />,
@@ -60,7 +61,7 @@ function getProjectList(){
             name: "Home Donuts",
             code:"",
             liveApp:"",
-            preview:"",
+            preview: NotAvailable,
             description:"",
             technologies:[
                 <HTML />,
