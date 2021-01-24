@@ -14,7 +14,7 @@ function MyWork() {
                     getProjectList().map(p => {
                         return (                        
                             <section>
-                                {p.preview && <img className="preview-image" src={p.preview}></img>}
+                                {p.preview && <img className="preview-image" src={p.preview} alt=""></img>}
                                 <p>{p.name}</p>
                                 <p>{p.description}</p>
                                 <section className="technology-icon">{p.technologies}</section>
